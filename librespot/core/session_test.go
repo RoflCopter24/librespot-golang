@@ -1,7 +1,7 @@
 package core
 
 import (
-	"github.com/librespot-org/librespot-golang/src/Spotify"
+	"github.com/RoflCopter24/librespot-golang/Spotify"
 	"bytes"
 	"encoding/binary"
 	"github.com/golang/protobuf/proto"

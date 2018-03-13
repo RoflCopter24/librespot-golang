@@ -3,7 +3,7 @@
 package librespot
 
 import (
-	"github.com/librespot-org/librespot-golang/src/Spotify"
+	"github.com/RoflCopter24/librespot-golang/Spotify"
 	"encoding/json"
 	"fmt"
 	"io"

@@ -1,7 +1,7 @@
 package spirc
 
 import (
-	"github.com/librespot-org/librespot-golang/src/Spotify"
+	"github.com/RoflCopter24/librespot-golang/Spotify"
 	"bytes"
 	"github.com/golang/protobuf/proto"
 	"github.com/RoflCopter24/librespot-golang/librespot/connection"

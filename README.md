@@ -14,7 +14,7 @@ and subject to heavy changes.
 
 This package can be installed using:
 ````
-go get github.com/librespot-org/librespot-golang
+go get github.com/RoflCopter24/librespot-golang
 ````
 
 ### Usage
