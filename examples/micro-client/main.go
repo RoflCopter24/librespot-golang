@@ -302,7 +302,7 @@ func funcPlay(session *core.Session, trackId string) {
 	// app is the OGG 320kbps variant.
 	var selectedFile *Spotify.AudioFile
 	for _, file := range track.GetFile() {
-		if //noinspection GoBinaryAndUnaryExpressionTypesCompatibility
+		if
 		file.GetFormat() == Spotify.AudioFile_OGG_VORBIS_160 {
 			selectedFile = file
 		}
