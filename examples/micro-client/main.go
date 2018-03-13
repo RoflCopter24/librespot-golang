@@ -1,16 +1,16 @@
 package main
 
 import (
-	"Spotify"
+	"github.com/RoflCopter24/librespot-golang/Spotify"
 	"bufio"
 	"flag"
 	"fmt"
 	"github.com/xlab/portaudio-go/portaudio"
 	"github.com/xlab/vorbis-go/decoder"
 	"io/ioutil"
-	"librespot"
-	"librespot/core"
-	"librespot/utils"
+	"github.com/RoflCopter24/librespot-golang/librespot"
+	"github.com/RoflCopter24/librespot-golang/librespot/core"
+	"github.com/RoflCopter24/librespot-golang/librespot/utils"
 	"log"
 	"os"
 	"strings"
@@ -302,7 +302,8 @@ func funcPlay(session *core.Session, trackId string) {
 	// app is the OGG 320kbps variant.
 	var selectedFile *Spotify.AudioFile
 	for _, file := range track.GetFile() {
-		if file.GetFormat() == Spotify.AudioFile_OGG_VORBIS_160 {
+		if //noinspection GoBinaryAndUnaryExpressionTypesCompatibility
+		file.GetFormat() == Spotify.AudioFile_OGG_VORBIS_160 {
 			selectedFile = file
 		}
 	}
